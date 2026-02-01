@@ -1,0 +1,22 @@
+VertexLitGeneric {
+	$basetexture "Reiko/MGO3/infiltrator/suits/infil_suit_f"
+	$bumpmap "Reiko/MGO3/infiltrator/suits/infil_suit_f_n"
+	$halflambert 1
+
+	$phong 1
+	$phongboost 0.2
+	$phongexponent 2
+	$phongfresnelranges "[.2 .1 .1]"
+
+	$blendtintbybasealpha 1
+	$blendtintcoloroverbase 0
+
+	Proxies
+	{
+		PlayerColor
+		{
+			resultVar	$color2
+			default		1 0 0
+		}
+	}
+}
